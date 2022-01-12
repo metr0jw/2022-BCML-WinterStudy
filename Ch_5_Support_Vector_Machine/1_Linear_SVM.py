@@ -58,4 +58,5 @@ for i, C in enumerate([1, 100]):
     plt.scatter(support_vectors[:, 0], support_vectors[:, 1], s=100, linewidth=1, facecolors="none", edgecolors="k")
     plt.title("C=" + str(C))
 plt.tight_layout()
+plt.savefig('./img/1_linear_svm.png')
 plt.show()

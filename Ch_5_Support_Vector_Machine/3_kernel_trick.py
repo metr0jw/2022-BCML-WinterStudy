@@ -1,3 +1,7 @@
+# 2022 code by @metr0jw
+# https://metr0jw.studio
+# Not implemented yet
+
 import numpy as np
 import time
 

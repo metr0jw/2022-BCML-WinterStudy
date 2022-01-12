@@ -45,4 +45,5 @@ for i, (gamma, C) in enumerate(params):
     plt.scatter(support_vectors[:, 0], support_vectors[:, 1], s=100, linewidth=1, facecolors="none", edgecolors="k")
     plt.title(r"$\gamma = {}, C = {}$".format(gamma, C))
 plt.tight_layout()
+plt.savefig('./img/2a_rbf_kernel.png')
 plt.show()

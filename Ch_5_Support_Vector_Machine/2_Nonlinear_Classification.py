@@ -54,4 +54,5 @@ for i in range(3):
     plt.scatter(support_vectors[:, 0], support_vectors[:, 1], s=100, linewidth=1, facecolors="none", edgecolors="k")
     plt.title("Kernel: " + kernel[i])
 plt.tight_layout()
+plt.savefig('./img/2_nonlinear_classification.png')
 plt.show()
