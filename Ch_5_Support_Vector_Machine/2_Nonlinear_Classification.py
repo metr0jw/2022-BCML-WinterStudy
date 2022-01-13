@@ -30,7 +30,8 @@ for i in range(3):
     polynomial_svm_pipeline.fit(data, target)
 
     # Prediction
-    print(polynomial_svm_pipeline.predict([[5.5, 1.7]]))
+    print(f"Predict probality of petal which have 5.5cm long and 1.7 cm wide with {kernel[i]} kernel: " +
+          str(polynomial_svm_pipeline.predict([[5.5, 1.7]])) + "\n")
 
     # Visualize sample data
     plt.scatter(data[:, 0], data[:, 1], c=target, s=30, cmap=plt.cm.Paired)
