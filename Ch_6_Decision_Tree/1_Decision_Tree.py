@@ -1,8 +1,6 @@
 # 2022 code by @metr0jw
 # https://metr0jw.studio
 
-import numpy as np
-
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -11,7 +9,6 @@ from sklearn.datasets import load_iris
 from sklearn.pipeline import Pipeline
 
 from matplotlib import pyplot as plt
-from matplotlib.colors import ListedColormap
 plt.rcParams['font.family'] = 'NanumGothic'
 
 
